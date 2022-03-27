@@ -1,3 +1,1 @@
-# Staging and committing changes
-
-Content goes here.
+"Staging and committing changes" - content goes here.

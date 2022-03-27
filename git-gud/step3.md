@@ -1,3 +1,1 @@
-# Checking the status of the working directory
-
-Content goes here.
+"Checking the status of the working directory" - content goes here.

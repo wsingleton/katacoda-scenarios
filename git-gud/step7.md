@@ -1,3 +1,1 @@
-# Working with remote repositories
-
-Content goes here.
+"Working with remote repositories" - content goes here.

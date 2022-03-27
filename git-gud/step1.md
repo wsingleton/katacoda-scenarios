@@ -1,3 +1,1 @@
-# What is Git?
-
-Content goes here.
+"What is Git?" - content goes here.

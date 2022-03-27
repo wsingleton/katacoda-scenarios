@@ -1,3 +1,1 @@
-# Initializing a repository
-
-Content goes here.
+"Initializing a repository" - content goes here.
