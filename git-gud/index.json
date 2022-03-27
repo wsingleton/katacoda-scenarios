@@ -7,7 +7,9 @@
     "steps": [
       {
         "title": "What is Git?",
-        "text": "step1.md"
+        "text": "step1.md",
+        "code": "step1-setup.sh",
+        "courseData": "step1-background.sh" 
       },
       {
         "title": "Initializing a repository",
