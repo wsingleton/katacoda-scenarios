@@ -10,12 +10,11 @@ This scenario is designed to help learners gain experience using Git as a versio
 By the end of this scenario, learners should feel more confident with:
 
 - articulating what Git is and why it is used for software development
-- explaining/defining terms such as: *working directory*, *head*,
 - initializing a directory as a Git repository
 - checking the status of the repository's working directory
 - seeing the differences between versions of files
 - staging changes to prepare them for commit
-- committing changes with a descriptive message
+- committing changes to the head of a local repository
 - connecting a local Git repository to a remote repository
 - pushing local changes to a connected remote repository
 - pulling changes down from a connected remote repository

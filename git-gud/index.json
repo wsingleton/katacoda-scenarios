@@ -6,24 +6,36 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "What is Git?",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Initializing a repository",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Checking the status of the working directory",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Seeing the differences between versions",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Staging and committing changes",
         "text": "step5.md"
+      },
+      {
+        "title": "Setting up a remote repository on GitHub",
+        "text": "step6.md"
+      },
+      {
+        "title": "Connecting a local repository to a remote repository",
+        "text": "step7.md"
+      },
+      {
+        "title": "Working with remote repositories",
+        "text": "step8.md"
       }
     ],
     "intro": {
