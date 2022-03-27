@@ -47,6 +47,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "git"
+    "imageid": "openjdk:15"
   }
 }
