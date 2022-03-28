@@ -1,7 +1,11 @@
 #!/bin/bash
 
-# Download and unpack example project from scenario assets S3 bucket
-wget "https://katakoda-scenario-assets.s3.amazonaws.com/study-cards.zip" -O study-cards.zip
-unzip study-cards.zip
+rm /root/project -R
+rm /root/target -R
 
-echo "done" >> /opt/.backgroundfinished
+echo "done" >> /root/katacoda-finished
+
+unzip study-cards.zip
+rm -R study-cards.zip
+
+echo "done" >> /root/katacoda-background-finished
