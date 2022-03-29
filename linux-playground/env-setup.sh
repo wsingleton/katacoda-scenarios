@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "done" >> /tmp/katacoda-finished
 sudo apt-get update > /dev/null
 sudo apt-get install git -y > /dev/null
 sudo apt-get install openjdk-8-jdk -y > /dev/null
