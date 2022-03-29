@@ -1,21 +1,21 @@
 #!/bin/bash
 echo "done" >> /tmp/katacoda-finished
-sudo apt-get -qq update > /dev/null
+apt-get -qq update > /dev/null
 
 echo "Installing Git..."
-sudo apt-get -qq install git -y > /dev/null
+apt-get -qq install git -y > /dev/null
 echo "Git installed."
 
 echo "Installing Java 8 JDK..."
-sudo apt-get -qq install openjdk-8-jdk -y > /dev/null
+apt-get -qq install openjdk-8-jdk -y > /dev/null
 echo "Java 8 JDK installed."
 
 echo "Installing Apache Maven..."
-sudo apt-get -qq install maven -y > /dev/null
+apt-get -qq install maven -y > /dev/null
 echo "Maven installed."
 
 echo "Installing Apache Tomcat..."
-sudo wget "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.zip" -q -O tomcat.zip > /dev/null
+wget "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.zip" -q -O tomcat.zip > /dev/null
 unzip tomcat.zip > /dev/null
 mv apache-tomcat-9.0.60/ /usr/local/
 rm tomcat.zip
