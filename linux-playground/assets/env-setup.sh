@@ -1,17 +1,17 @@
 #!/bin/bash
 echo "done" >> /tmp/katacoda-finished
-sudo apt-get update > /dev/null
-sudo apt-get install apt-utils -y --no-install-recommends > /dev/null
+sudo apt-get -qq update > /dev/null
+
 echo "Installing Git..."
-sudo apt-get install git -y > /dev/null
+sudo apt-get -qq install git -y > /dev/null
 echo "Git installed."
 
 echo "Installing Java 8 JDK..."
-sudo apt-get install openjdk-8-jdk -y > /dev/null
+sudo apt-get -qq install openjdk-8-jdk -y > /dev/null
 echo "Java 8 JDK installed."
 
 echo "Installing Apache Maven..."
-sudo apt-get install maven -y > /dev/null
+sudo apt-get -qq install maven -y > /dev/null
 echo "Maven installed."
 
 echo "Installing Apache Tomcat..."
