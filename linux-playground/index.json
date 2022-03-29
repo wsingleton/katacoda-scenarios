@@ -6,8 +6,10 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Welcome to the Sandbox",
+        "text": "step1.md",
+        "courseData": "env-setup.sh",
+        "code": "step1-setup.sh"
       }
     ],
     "intro": {
