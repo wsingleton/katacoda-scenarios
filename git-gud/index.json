@@ -47,7 +47,7 @@
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
         {"file": "study-cards.zip", "target": "/root", "chmod": "+x"}
       ]
-  }
+    }
   },
   "environment": {
     "uilayout": "editor-terminal"
