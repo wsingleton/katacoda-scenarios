@@ -1,2 +1,2 @@
 #!/bin/bash
-sleep 1; wait.sh && clear
+sleep 1; env-setup.sh && clear
