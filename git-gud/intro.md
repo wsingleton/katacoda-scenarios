@@ -1,6 +1,8 @@
 # Scenario Description
 
-This scenario is designed to help learners gain experience using Git as a version control system for projects that they are working on. Additionally, it covers the basics of working with remote Git repository hosting websites (e.g. GitHub, GitLab, etc.). 
+This scenario is designed to help learners gain experience using Git as a version control system for projects that they are working on. 
+
+Additionally, it covers the basics of working with remote Git repository hosting websites (e.g. GitHub, GitLab, etc.). 
 
 
 # Learning Goals
