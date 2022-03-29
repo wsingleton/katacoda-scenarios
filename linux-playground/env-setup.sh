@@ -7,7 +7,5 @@ sudo wget "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.
 unzip tomcat.zip > /dev/null
 mv apache-tomcat-9.0.60/ /usr/local/
 rm tomcat.zip
-printf "\nexport PATH=\"/usr/local/apache-tomcat-9.0.60/bin:$PATH\"" >> .bashrc
 chmod 570 /usr/local/apache-tomcat-9.0.60/ -R
-source .bashrc
 echo "done" >> /tmp/background-finished
