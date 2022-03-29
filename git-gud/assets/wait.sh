@@ -2,6 +2,10 @@
 
 show_progress()
 {
+  local -r pid="${1}"
+  local -r delay='0.75'
+  local spinstr='\|/-'
+  local temp
   while true; do 
     sudo grep -i "done" /.opt/background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
