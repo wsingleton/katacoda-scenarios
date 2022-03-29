@@ -1,7 +1,6 @@
 #!/bin/bash
-rm /root/project -R
-rm /root/target -R
-echo "done" >> /root/katacoda-finished
-unzip study-cards.zip
-rm -R study-cards.zip
-echo "done" >> /root/katacoda-background-finished
+rm /root/project -R > /dev/null &
+rm /root/target -R > /dev/null &
+unzip study-cards.zip > /dev/null &
+rm -R study-cards.zip > /dev/null &
+echo "done" >> /tmp/background-finished
