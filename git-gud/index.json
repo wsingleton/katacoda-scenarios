@@ -9,49 +9,49 @@
         "title": "Introductions",
         "text": "steps/step1/step1.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step1/step1-load.sh"
+        "courseData": "steps/step1/step1-setup.sh"
       },
       {
         "title": "What is Git?",
         "text": "steps/step2/step2.md",
         "code": "steps/step2/step2-init.sh",
-        "courseData": "steps/step2/step2-load.sh" 
+        "courseData": "steps/step2/step2-setup.sh" 
       },
       {
         "title": "Initializing a repository",
         "text": "steps/step3/step3.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step3/step3-load.sh"
+        "courseData": "steps/step3/step3-setup.sh"
       },
       {
         "title": "Checking the status of the working directory",
         "text": "steps/step4/step4.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step4/step4-load.sh"
+        "courseData": "steps/step4/step4-setup.sh"
       },
       {
         "title": "Seeing the differences between versions",
         "text": "steps/step5/step5.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step5/step5-load.sh"
+        "courseData": "steps/step5/step5-setup.sh"
       },
       {
         "title": "Staging and committing changes",
         "text": "steps/step6/step6.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step6/step6-load.sh"
+        "courseData": "steps/step6/step6-setup.sh"
       },
       {
         "title": "Setting up a remote repository on GitHub",
         "text": "steps/step7/step7.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step7/step7-load.sh"
+        "courseData": "steps/step7/step7-setup.sh"
       },
       {
         "title": "Working with remote repositories",
         "text": "steps/step8/step8.md",
         "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step8/step8-load.sh"
+        "courseData": "steps/step8/step8-setup.sh"
       }
     ],
     "intro": {
