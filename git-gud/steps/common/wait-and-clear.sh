@@ -11,7 +11,7 @@ while true; do
     temp="${spinstr#?}"
     printf " [%c]  " "${spinstr}"
     spinstr=${temp}${spinstr%"${temp}"}
-    sleep "${delay}"
+    sleep "${delay}";
     printf "\b\b\b\b\b\b"
   else
     break
