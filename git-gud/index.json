@@ -58,7 +58,9 @@
       "text": "steps/step0/intro.md"
     },
     "finish": {
-      "text": "steps/step9/finish.md"
+      "text": "steps/step9/finish.md",
+      "code": "steps/common/wait-and-clear.sh",
+      "courseData": "steps/step9/submit-scenario.sh"
     },
     "assets": {
       "host01": [
