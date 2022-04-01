@@ -55,7 +55,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "study-cards.zip", "target": "/root", "chmod": "770"}
+        {"file": "study-cards.zip", "target": "/root", "chmod": "+x"}
       ]
     }
   },
