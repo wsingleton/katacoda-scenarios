@@ -14,7 +14,7 @@
       {
         "title": "What is Git?",
         "text": "steps/step2/step2.md",
-        "code": "steps/step2/step2-init.sh",
+        "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step2/step2-setup.sh" 
       },
       {
