@@ -6,46 +6,64 @@
   "details": {
     "steps": [
       {
+        "title": "Introductions",
+        "text": "steps/step1/step1.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step1/step1-load.sh"
+      },
+      {
         "title": "What is Git?",
-        "text": "step1.md",
-        "code": "step1-setup.sh",
-        "courseData": "step1-background.sh" 
+        "text": "steps/step2/step2.md",
+        "code": "steps/step2/step2-init.sh",
+        "courseData": "steps/step2/step2-load.sh" 
       },
       {
         "title": "Initializing a repository",
-        "text": "step2.md"
+        "text": "steps/step3/step3.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step3/step3-load.sh"
       },
       {
         "title": "Checking the status of the working directory",
-        "text": "step3.md"
+        "text": "step4.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step4/step4-load.sh"
       },
       {
         "title": "Seeing the differences between versions",
-        "text": "step4.md"
+        "text": "step5.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step5/step5-load.sh"
       },
       {
         "title": "Staging and committing changes",
-        "text": "step5.md"
+        "text": "step6.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step6/step6-load.sh"
       },
       {
         "title": "Setting up a remote repository on GitHub",
-        "text": "step6.md"
+        "text": "step7.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step7/step7-load.sh"
       },
       {
         "title": "Working with remote repositories",
-        "text": "step7.md"
+        "text": "step8.md",
+        "code": "steps/common/wait-and-clear.sh",
+        "courseData": "steps/step8/step8-load.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "steps/step0/intro.md"
     },
     "finish": {
-      "text": "finish.md"
+      "text": "steps/step9/finish.md"
     },
     "assets": {
       "host01": [
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "study-cards.zip", "target": "/root", "chmod": "+x"}
+        {"file": "study-cards.zip", "target": "/root", "chmod": "770"}
       ]
     }
   },
