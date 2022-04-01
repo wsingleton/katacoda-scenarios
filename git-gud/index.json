@@ -8,14 +8,12 @@
       {
         "title": "Introductions",
         "text": "steps/step1/step1.md",
-        "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step1/step1-setup.sh"
+        "code": "steps/step1/step1-setup.sh"
       },
       {
         "title": "What is Git?",
         "text": "steps/step2/step2.md",
-        "code": "steps/common/wait-and-clear.sh",
-        "courseData": "steps/step2/step2-setup.sh" 
+        "code": "steps/step2/step2-setup.sh" 
       },
       {
         "title": "Initializing a repository",
