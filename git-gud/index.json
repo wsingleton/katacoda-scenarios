@@ -25,31 +25,31 @@
       },
       {
         "title": "Checking the status of the working directory",
-        "text": "step4.md",
+        "text": "steps/step4/step4.md",
         "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step4/step4-load.sh"
       },
       {
         "title": "Seeing the differences between versions",
-        "text": "step5.md",
+        "text": "steps/step5/step5.md",
         "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step5/step5-load.sh"
       },
       {
         "title": "Staging and committing changes",
-        "text": "step6.md",
+        "text": "steps/step6/step6.md",
         "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step6/step6-load.sh"
       },
       {
         "title": "Setting up a remote repository on GitHub",
-        "text": "step7.md",
+        "text": "steps/step7/step7.md",
         "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step7/step7-load.sh"
       },
       {
         "title": "Working with remote repositories",
-        "text": "step8.md",
+        "text": "steps/step8/step8.md",
         "code": "steps/common/wait-and-clear.sh",
         "courseData": "steps/step8/step8-load.sh"
       }
