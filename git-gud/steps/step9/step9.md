@@ -1,0 +1,1 @@
+Congratulations on completing the scenario. Once the console to the right indicates that your submission was received, you may continue to the final screen.

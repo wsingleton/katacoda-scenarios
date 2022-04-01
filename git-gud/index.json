@@ -44,14 +44,18 @@
         "title": "Working with remote repositories",
         "text": "steps/step8/step8.md",
         "code": "steps/step8/step8-setup.sh"
+      },
+      {
+        "title": "Scenario submission",
+        "text": "steps/step9/step9.md",
+        "code": "steps/step9/step9-setup.sh"
       }
     ],
     "intro": {
       "text": "steps/step0/intro.md"
     },
     "finish": {
-      "text": "steps/step9/finish.md",
-      "code": "steps/step9/submit-scenario.sh"
+      "text": "steps/step10/finish.md"
     },
     "assets": {
       "host01": [
