@@ -15,7 +15,7 @@ apt-get -qq install maven -y > /dev/null
 echo "Maven installed."
 
 echo "Installing Apache Tomcat..."
-wget "https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.60/bin/apache-tomcat-9.0.60.zip" -q -O tomcat.zip > /dev/null
+wget "https://katakoda-scenario-assets.s3.amazonaws.com/apache-tomcat-9.0.62.zip" -q -O tomcat.zip > /dev/null
 unzip tomcat.zip > /dev/null
 mv apache-tomcat-9.0.60/ /usr/local/
 rm tomcat.zip
