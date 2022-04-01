@@ -48,7 +48,7 @@
       {
         "title": "Scenario submission",
         "text": "steps/step9/step9.md",
-        "code": "steps/step9/step9-setup.sh"
+        "code": "steps/step9/submit-scenario.sh"
       }
     ],
     "intro": {
