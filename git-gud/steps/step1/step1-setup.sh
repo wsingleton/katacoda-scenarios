@@ -3,6 +3,7 @@
 echo "TODO: step setup implementation"
 rm /root/project/ -R
 rm /root/target/ -R 
+wget "https://katakoda-scenario-assets.s3.amazonaws.com/study-cards.zip" -q -O
 unzip study-cards.zip >> /dev/null &
 rm study-cards.zip
-wget -q -O https://katakoda-scenario-assets.s3.amazonaws.com/scenario-submission-details.json
+wget "https://katakoda-scenario-assets.s3.amazonaws.com/scenario-submission-details.json" -q -O

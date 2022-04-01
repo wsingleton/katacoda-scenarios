@@ -56,11 +56,6 @@
     },
     "finish": {
       "text": "steps/step10/finish.md"
-    },
-    "assets": {
-      "host01": [
-        {"file": "study-cards.zip", "target": "/root", "chmod": "+x"}
-      ]
     }
   },
   "environment": {
