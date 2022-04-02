@@ -7,4 +7,4 @@ rm /root/study-cards.zip
 (wget "https://katakoda-scenario-assets.s3.amazonaws.com/learner-details.sh" -q -O /root/learner-details.sh && chmod 775 /root/learner-details.sh) &
 clear
 echo 'Setting up your environment. Please wait...'
-sleep 5 && echo "Environment setup complete" && sleep 1 && clear
+$(sleep 5 && echo "Environment setup complete" && sleep 1 && clear)
