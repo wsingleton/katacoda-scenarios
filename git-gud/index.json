@@ -8,7 +8,8 @@
       {
         "title": "Introductions",
         "text": "steps/step1/step1.md",
-        "code": "steps/step1/step1-setup.sh"
+        "code": "steps/step1/step1-setup.sh",
+        "courseData": "steps/step1/who-dis.sh"
       },
       {
         "title": "What is Git?",
