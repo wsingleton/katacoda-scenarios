@@ -1,6 +1,6 @@
 {
   "title": "Core Java Basics",
-  "description": "<script>alert(\"uh oh!\")</script>",
+  "description": "Covers basic Java concepts: declarations, scope, flow control, and object instantiation.",
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
