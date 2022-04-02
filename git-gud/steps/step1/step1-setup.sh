@@ -7,9 +7,8 @@ wget "https://katakoda-scenario-assets.s3.amazonaws.com/study-cards.zip" -q -O s
 unzip study-cards.zip >> /dev/null
 rm study-cards.zip
 clear
-echo 'Would you like to submit your completion of this scenario? [y/n] '
-read answer
-if [["${answer,,}" == "y"]] || [["${answer,,}" == "yes"]];
+read -p "Would you like to submit your completion of this scenario? [y/n] " answer
+if [[ "${answer,,}" == 'y' ]] || [[ "${answer,,}" == 'yes' ]];
 then
     read -p "First name: " firstName
     read -p "Last name: " lastName
