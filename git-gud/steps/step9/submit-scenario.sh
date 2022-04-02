@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Submitting scenario..."
-cat scenario-submission-details.json
+curl -X POST -H "Content-Type: application/json" -d @/root/scenario-submission-details.json
 
