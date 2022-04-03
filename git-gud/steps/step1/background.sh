@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "done" >> /root/katacoda-finished
+echo "done" >> /tmp/katacoda-finished
 rm /root/project/ -R
 rm /root/target/ -R
 wget "https://katakoda-scenario-assets.s3.amazonaws.com/study-cards.zip" -q -O /root/study-cards.zip &
@@ -8,4 +8,4 @@ rm /root/study-cards.zip
 wget "https://katakoda-scenario-assets.s3.amazonaws.com/learner-details.sh" -q -O /root/learner-details.sh 
 chmod 775 /root/learner-details.sh
 sleep 3
-echo "done" >> /root/katacoda-background-finished
+echo "done" >> /tmp/katacoda-background-finished
