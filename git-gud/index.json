@@ -13,48 +13,49 @@
       {
         "title": "Introductions",
         "text": "steps/step1/step1.md",
-        "code": "steps/step1/step1-setup.sh",
-        "courseData": "steps/step1/step1-background.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step1/background.sh"
       },
       {
         "title": "What is Git?",
-        "text": "steps/step2/step2.md",
-        "code": "steps/step2/step2-setup.sh" 
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step2/background.sh"
       },
       {
         "title": "Initializing a repository",
-        "text": "steps/step3/step3.md",
-        "code": "steps/step3/step3-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step3/background.sh"
       },
       {
         "title": "Checking the status of the working directory",
-        "text": "steps/step4/step4.md",
-        "code": "steps/step4/step4-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step4/background.sh"
       },
       {
         "title": "Seeing the differences between versions",
-        "text": "steps/step5/step5.md",
-        "code": "steps/step5/step5-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step5/background.sh"
       },
       {
         "title": "Staging and committing changes",
-        "text": "steps/step6/step6.md",
-        "code": "steps/step6/step6-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step6/background.sh"
       },
       {
         "title": "Setting up a remote repository on GitHub",
-        "text": "steps/step7/step7.md",
-        "code": "steps/step7/step7-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step7/background.sh"
       },
       {
         "title": "Working with remote repositories",
-        "text": "steps/step8/step8.md",
-        "code": "steps/step8/step8-setup.sh"
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step8/background.sh"
       },
       {
         "title": "Scenario submission",
         "text": "steps/step9/step9.md",
-        "code": "steps/step9/submit-scenario.sh"
+        "code": "steps/step9/foreground.sh",
+        "courseData": "steps/step9/submit-scenario.sh"
       }
     ],
     "intro": {
