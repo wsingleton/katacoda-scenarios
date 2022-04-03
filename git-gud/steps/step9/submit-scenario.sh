@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "done" >> /root/katacoda-finished
+echo "done" >> /tmp/katacoda-finished
 
 if [ -e /root/submission.json ]; 
 then
@@ -15,4 +15,4 @@ else
     echo "No scenario data to submit."
 fi
 
-echo "done" >> /root/katacoda-background-finished
+echo "done" >> /tmp/katacoda-background-finished

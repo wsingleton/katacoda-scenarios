@@ -1,5 +1,5 @@
 #!/bin/bash
 sleep 1; wait.sh
-rm /root/katacoda-finished
-rm /root/katacoda-background-finished
+rm /tmp/katacoda-finished
+rm /tmp/katacoda-background-finished
 clear
