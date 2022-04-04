@@ -17,7 +17,7 @@
         "courseData": "steps/step1/background.sh"
       },
       {
-        "title": "What is Git?",
+        "title": "Version Control and Git",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step2/background.sh"
       },
