@@ -19,36 +19,43 @@
       },
       {
         "title": "Version Control and Git",
+        "text": "steps/step2/step2.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step2/background.sh"
       },
       {
         "title": "Initializing a repository",
+        "text": "steps/step3/step3.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step3/background.sh"
       },
       {
         "title": "Checking the status of the working directory",
+        "text": "steps/step4/step4.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step4/background.sh"
       },
       {
         "title": "Seeing the differences between versions",
+        "text": "steps/step5/step5.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step5/background.sh"
       },
       {
         "title": "Staging and committing changes",
+        "text": "steps/step6/step6.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step6/background.sh"
       },
       {
         "title": "Setting up a remote repository on GitHub",
+        "text": "steps/step7/step7.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step7/background.sh"
       },
       {
         "title": "Working with remote repositories",
+        "text": "steps/step8/step8.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step8/background.sh"
       },
