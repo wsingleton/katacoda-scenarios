@@ -14,11 +14,7 @@ then
     read -p "Email address: " email
     submissionJson="{
     \"scenarioId\":\"3acb5508-d71a-439c-8e82-14ccacddff1b\",
-    \"submitter\":{
-        \"firstName\":\"${firstName}\",
-        \"lastName\":\"${lastName}\",
-        \"email\":\"${email}\"
-    }
+    \"submitter\":\"email\":\"${email}\"
 }\n"
     printf "$submissionJson" >> /root/submission.json
 fi
