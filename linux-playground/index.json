@@ -6,13 +6,14 @@
   "details": {
     "steps": [
       {
-        "title": "Welcome to the Sandbox",
-        "text": "step1.md",
-        "code": "step1-setup.sh"
+        "title": "Introductions",
+        "text": "steps/step1/step1.md",
+        "code": "assets/step-setup.sh",
+        "courseData": "steps/step1/background.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "steps/step0/intro.md"
     },
     "finish": {
       "text": "finish.md"
@@ -20,7 +21,8 @@
     "assets": {
       "host01": [
         {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"},
-        {"file": "env-setup.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+        {"file": "env-setup.sh", "target": "/usr/local/bin/", "chmod": "+x"},
+        {"file": "log-scenario.sh", "target": "/usr/local/bin/", "chmod": "+x"}
       ]
     }
   },
