@@ -1,7 +1,8 @@
 #!/bin/bash
+
 show_progress()
 {
-  echo -n "Starting"
+  echo -n "Starting scenario"
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -20,10 +21,10 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Started"
-  echo -n "Configuring"
+  echo "Scenario started"
+  echo -n "Configuring scenario"
   while true; do 
-    sudo grep -i "done" /tmp/background-finished &> /dev/null
+    sudo grep -i "done" /tmp/katacoda-background-finished &> /dev/null
     if [[ "$?" -ne 0 ]]; then     
       temp="${spinstr#?}"
       printf " [%c]  " "${spinstr}"
@@ -36,6 +37,9 @@ show_progress()
   done
   printf "    \b\b\b\b"
   echo ""
-  echo "Configured"
+  echo "Scenario configured"
 }
+
 show_progress
+
+# Attribution: https://github.com/katacoda/scenario-examples/tree/master/displaying-progress-spinner/assets
