@@ -18,3 +18,5 @@ Finally, there is one more basic piece of software to discuss: the **shell**. Th
 - command-line
 
 You can read more about the specific differences between these terms by reading the article found [here](https://www.geeksforgeeks.org/difference-between-terminal-console-shell-and-command-line)
+
+![os-kernal-hardware](https://katakoda-scenario-assets.s3.amazonaws.com/OS-Kernal-Hardware.png)
