@@ -10,6 +10,10 @@
         "text": "steps/step1/step1.md",
         "code": "assets/step-setup.sh",
         "courseData": "steps/step1/background.sh"
+      },
+      {
+        "title": "The Basics",
+        "text": "steps/step2/step2.md"
       }
     ],
     "intro": {
